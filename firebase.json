@@ -1,0 +1,6 @@
+{
+  "firestore": {
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter":{"platforms":{"android":{"default":{"projectId":"govconnect-8fb26","appId":"1:706676694047:android:e6411fb477b4269d62092a","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"govconnect-8fb26","configurations":{"android":"1:706676694047:android:e6411fb477b4269d62092a","ios":"1:706676694047:ios:9b20ca9387908c5d62092a","macos":"1:706676694047:ios:9b20ca9387908c5d62092a","web":"1:706676694047:web:8661f176b1d0d95862092a","windows":"1:706676694047:web:caae50789c2c64be62092a"}}}}}
+}

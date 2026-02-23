@@ -1,0 +1,29 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "puestos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "activo", "order": "ASCENDING" },
+        { "fieldPath": "creadoEn", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "postulaciones",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "userId", "order": "ASCENDING" },
+        { "fieldPath": "fechaPostulacion", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "postulaciones",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "puestoId", "order": "ASCENDING" },
+        { "fieldPath": "apellidos", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

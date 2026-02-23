@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "706676694047",
+    "project_id": "govconnect-8fb26",
+    "storage_bucket": "govconnect-8fb26.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706676694047:android:e6411fb477b4269d62092a",
+        "android_client_info": {
+          "package_name": "com.example.govconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706676694047-lf2qi9nglbs5sid9bii1k67f2c5npnfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDun4FgUccfdhlyYn_sagJBrCL0gUfCv5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706676694047-lf2qi9nglbs5sid9bii1k67f2c5npnfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
