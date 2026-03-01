@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../services/auth_service.dart';
 import '../services/firestore_service.dart';
 import '../models/usuario_model.dart';
+import '../models/postulacion_model.dart'; // ← import necesario para el tipo
 
 // ─────────────────── SERVICES ───────────────────
 
@@ -51,8 +52,9 @@ final misPostulacionesProvider = StreamProvider((ref) {
       .getPostulacionesDeUsuario(user.uid);
 });
 
+// Tipo explícito List<PostulacionModel> para evitar errores de cast en la UI
 final postulantesPorPuestoProvider =
-    StreamProvider.family<dynamic, String>((ref, puestoId) {
+    StreamProvider.family<List<PostulacionModel>, String>((ref, puestoId) {
   return ref
       .watch(firestoreServiceProvider)
       .getPostulantesPorPuesto(puestoId);
